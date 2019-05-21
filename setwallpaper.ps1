@@ -1,4 +1,4 @@
-(new-object System.Net.WebClient).DownloadFile('https://raw.githubusercontent.com/dtthanh1971/hello-world/master/image/wallpaper1.jpg',"$Env:USERPROFILE\\wallpaper.jpg");
+(new-object System.Net.WebClient).DownloadFile('https://raw.githubusercontent.com/dtthanh1971/hello-world/master/image/wallpaper3.jpg',"$Env:USERPROFILE\\wallpaper.jpg");
 
 Function Set-WallPaper($Image) {
 <#
