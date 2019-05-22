@@ -1,4 +1,4 @@
-$stt=get-random -minimum 1 -maximum 7;
+$stt=get-random -minimum 1 -maximum 10;
 $file = "https://raw.githubusercontent.com/dtthanh1971/hello-world/master/image/wallpaper" +$stt +".jpg"
 (new-object System.Net.WebClient).DownloadFile($file,"$Env:USERPROFILE\\wallpaper.jpg");
 
