@@ -1,4 +1,6 @@
-(new-object System.Net.WebClient).DownloadFile('https://raw.githubusercontent.com/dtthanh1971/hello-world/master/image/wallpaper3.jpg',"$Env:USERPROFILE\\wallpaper.jpg");
+$stt=get-random -minimum 1 -maximum 7;
+$file = "https://raw.githubusercontent.com/dtthanh1971/hello-world/master/image/wallpaper" +$stt+ ".jpg"
+(new-object System.Net.WebClient).DownloadFile($file,"$Env:USERPROFILE\\wallpaper.jpg");
 
 Function Set-WallPaper($Image) {
 <#
