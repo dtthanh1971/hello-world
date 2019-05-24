@@ -1,7 +1,7 @@
 $stt=get-random -minimum 1 -maximum 13;
-// Wallpaper Ngoc Trinh
-// $file = "https://raw.githubusercontent.com/dtthanh1971/hello-world/master/image/wallpaper" +$stt +".jpg"
-// Wallpaper Hacker
+# Wallpaper Ngoc Trinh
+# $file = "https://raw.githubusercontent.com/dtthanh1971/hello-world/master/image/wallpaper" +$stt +".jpg"
+# Wallpaper Hacker
 $file = "https://raw.githubusercontent.com/dtthanh1971/hello-world/master/image/hacker.jpg"
 (new-object System.Net.WebClient).DownloadFile($file,"$Env:USERPROFILE\\wallpaper.jpg");
 
